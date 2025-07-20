@@ -1,0 +1,20 @@
+{
+  "name": "misiku-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Librería multiplataforma de íconos SVG animados",
+  "scripts": {
+    "build": "pnpm --filter ./packages/* run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "rollup": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/core",
+    "packages/react-icons",
+    "packages/vue-icons",
+    "packages/svelte-icons",
+    "packages/angular-icons"
+  ]
+}
